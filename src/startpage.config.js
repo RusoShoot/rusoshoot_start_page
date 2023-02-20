@@ -1,5 +1,5 @@
 const config = {
-	username: "Excalith",
+	username: "RusoShoot",
 	terminal: {
 		fixedheight: true,
 		backgroundcolor: "#121317",
@@ -9,9 +9,9 @@ const config = {
 	prompt: {
 		ctrlc: true,
 		placeholder: "command...",
-		usercolor: "green",
+		usercolor: "magenta",
 		atcolor: "gray",
-		hostcolor: "magenta",
+		hostcolor: "yellow",
 		promptcolor: "magenta",
 		promptsymbol: "❯",
 		caretcolor: "green",
@@ -85,8 +85,8 @@ const config = {
 			color: "green",
 			links: [
 				{
-					name: "Portfolio",
-					url: "https://cancellek.com",
+					name: "RusoShoot",
+					url: "https://rusoshoot.com",
 					icon: "mdi:web",
 					target: "_blank"
 				},
@@ -231,12 +231,12 @@ const config = {
 			]
 		},
 		{
-			title: "Tech",
+			title: "SelfHosted",
 			color: "yellow",
 			links: [
 				{
-					name: "TechCrunch",
-					url: "https://techcrunch.com/",
+					name: "Proxmox",
+					url: "http://jhin.home:8006",
 					icon: "game-icons:techno-heart",
 					target: "_blank"
 				},
