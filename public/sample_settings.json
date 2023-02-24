@@ -5,7 +5,7 @@
 		backgroundcolor: "#121317",
 		windowcolor: "#1e212b",
 		glowcolor: "none"
-	},
+},
 	prompt: {
 		ctrlc: true,
 		placeholder: "command...",
