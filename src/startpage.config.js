@@ -59,29 +59,19 @@ const config = {
 			url: "https://search.brave.com/search?q={}"
 		},
 		{
-			alias: "gh",
-			name: "Github Search",
-			url: "https://github.com/search?q={}"
-		},
-		{
-			alias: "s",
-			name: "Stack Overflow Search",
-			url: "https://stackoverflow.com/search?q={}"
-		},
-		{
 			alias: "r",
 			name: "Subreddit Search",
 			url: "https://reddit.com/r/{}"
 		},
 		{
-			alias: "w",
-			name: "Wikipedia Search",
-			url: "https://en.wikipedia.org/wiki/{}"
+			alias: "y",
+			name: "Youtube Search",
+			url: "https://www.youtube.com/results?search_query={}"
 		}
 	],
 	sections: [
 		{
-			title: "General",
+			title: "FQDNs",
 			color: "green",
 			links: [
 				{
@@ -91,21 +81,9 @@ const config = {
 					target: "_blank"
 				},
 				{
-					name: "Keybase",
-					url: "https://keybase.io/",
-					icon: "fa-brands:keybase",
-					target: "_blank"
-				},
-				{
-					name: "GPT",
-					url: "https://chat.openai.com/",
-					icon: "simple-icons:openai",
-					target: "_blank"
-				},
-				{
-					name: "OCI",
-					url: "https://www.oracle.com/cloud/",
-					icon: "simple-icons:oracle",
+					name: "Nextcloud",
+					url: "https://nextcloud.rusoshoot.com",
+					icon: "simple-icons:nextcloud",
 					target: "_blank"
 				}
 			]
@@ -121,27 +99,27 @@ const config = {
 					target: "_blank"
 				},
 				{
-					name: "GitLab",
-					url: "https://gitlab.com",
-					icon: "ph:gitlab-logo-simple-fill",
+					name: "Cloudflare",
+					url: "https://dash.cloudflare.com/",
+					icon: "simple-icons:cloudflare",
 					target: "_blank"
 				},
 				{
-					name: "Dev.to",
-					url: "https://dev.to",
+					name: "Vercel",
+					url: "https://vercel.com/",
 					icon: "material-symbols:logo-dev",
 					target: "_blank"
 				},
 				{
-					name: "Stack Overflow",
-					url: "https://stackoverflow.com/",
-					icon: "mdi:stack-overflow",
+					name: "Choco",
+					url: "https://community.chocolatey.org/",
+					icon: "file-icons:chocolatey",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Social",
+			title: "Content",
 			color: "purple",
 			links: [
 				{
@@ -151,81 +129,57 @@ const config = {
 					target: "_blank"
 				},
 				{
-					name: "Mastodon",
-					url: "https://mastodon.social/",
-					icon: "ri:mastodon-fill",
-					target: "_blank"
-				},
-				{
 					name: "Reddit",
 					url: "https://reddit.com",
 					icon: "mdi:reddit",
 					target: "_blank"
 				},
 				{
-					name: "Polywork",
-					url: "https://polywork.com",
-					icon: "simple-icons:polywork",
+					name: "Jellyfin",
+					url: "http://jellyfin.home:8096/",
+					icon: "simple-icons:jellyfin",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Gaming",
+			title: "Networking",
 			color: "cyan",
 			links: [
 				{
-					name: "Polygon",
-					url: "https://polygon.com",
-					icon: "uil:polygon",
+					name: "Pihole/Unbound",
+					url: "http://10.1.80.8/admin",
+					icon: "simple-icons:pihole",
 					target: "_blank"
 				},
 				{
-					name: "IGN",
-					url: "https://ign.com",
-					icon: "mdi:currency-sign",
+					name: "Pfsense",
+					url: "https://10.1.80.1",
+					icon: "simple-icons:pfsense",
 					target: "_blank"
 				},
 				{
-					name: "RPS",
-					url: "https://rockpapershotgun.com/",
-					icon: "ph:toilet-paper-bold",
-					target: "_blank"
-				},
-				{
-					name: "80lv",
-					url: "https://80.lv/",
-					icon: "tabler:hand-rock",
+					name: "Heimdall",
+					url: "https://dashboard.home/",
+					icon: "material-symbols:space-dashboard",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Science",
+			title: "NAS",
 			color: "blue",
 			links: [
 				{
-					name: "PopSci",
-					url: "https://popsci.com/",
-					icon: "material-symbols:science",
+					name: "RRA",
+					url: "http://rra.home:5000",
+					icon: "mdi:nas",
 					target: "_blank"
 				},
 				{
-					name: "Space",
-					url: "fa6-solid:user-astronaut",
-					icon: "mdi:reddit",
-					target: "_blank"
-				},
-				{
-					name: "NASA",
-					url: "https://blogs.nasa.gov/",
-					icon: "simple-icons:nasa",
-					target: "_blank"
-				},
-				{
-					name: "ESA",
-					url: "https://blogs.esa.int/",
-					icon: "mdi:black-mesa",
+					name: "TrueNAS",
+					url: "https://truenas.home/",
+					icon: "simple-icons:truenas",
 					target: "_blank"
 				}
 			]
@@ -237,25 +191,19 @@ const config = {
 				{
 					name: "Proxmox",
 					url: "http://jhin.home:8006",
-					icon: "game-icons:techno-heart",
+					icon: "simple-icons:proxmox",
 					target: "_blank"
 				},
 				{
-					name: "Verge",
-					url: "https://www.theverge.com/",
-					icon: "arcticons:verge",
+					name: "Portainer",
+					url: "http://portainer.home:9000/#!/home",
+					icon: "simple-icons:portainer",
 					target: "_blank"
 				},
 				{
-					name: "It's Foss",
-					url: "https://itsfoss.com/",
-					icon: "ri:mastodon-fill",
-					target: "_blank"
-				},
-				{
-					name: "9To5 Linux",
-					url: "https://9to5linux.com/",
-					icon: "uil:linux",
+					name: "Transmission",
+					url: "http://transmission.home:9091",
+					icon: "carbon:transmission-lte",
 					target: "_blank"
 				}
 			]
