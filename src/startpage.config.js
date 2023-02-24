@@ -64,7 +64,7 @@ const config = {
 			url: "https://reddit.com/r/{}"
 		},
 		{
-			alias: "y",
+			alias: "y:",
 			name: "Youtube Search",
 			url: "https://www.youtube.com/results?search_query={}"
 		}
