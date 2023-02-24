@@ -50,11 +50,6 @@
         "url": "https://google.com/search?q={}"
       },
       {
-        "alias": "d",
-        "name": "DuckDuckGo Search",
-        "url": "https://duckduckgo.com/?q={}"
-      },
-      {
         "alias": "b",
         "name": "Brave Search",
         "url": "https://search.brave.com/search?q={}"
@@ -65,7 +60,7 @@
         "url": "https://reddit.com/r/{}"
       },
       {
-        "alias": "y:",
+        "alias": "y",
         "name": "Youtube Search",
         "url": "https://www.youtube.com/results?search_query={}"
       }
