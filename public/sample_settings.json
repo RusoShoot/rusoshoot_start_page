@@ -173,7 +173,7 @@
       "links": [
         {
           "name": "Proxmox",
-          "url": "http://jhin.home:8006",
+          "url": "https://jhin.home:8006",
           "icon": "simple-icons:proxmox"
         },
         {
